@@ -22,6 +22,16 @@ GUI controls.
 pyspi allows the Python language to be used to script AT-SPI-aware
 applications (currently mostly GTK+ based.)
 
+%description -l pl
+AT-SPI pozwala na korzystanie z urz±dzeñ wspomagaj±cych w celu dostêpu
+do aplikacji opartych na GTK+. Udostêpnia wewnêtrzne interfejsy
+aplikacji w celu automatyzacji, wiêc urz±dzenia takie jak czytniki
+ekranu czy interfejsy skryptowe mog± odpytywaæ i wspó³pracowaæ z
+kontrolkami interfejsu graficznego.
+
+pyspi pozwala na u¿ywanie jêzyka Python do oskryptowania aplikacji
+zgodnych z AT-API (aktualnie w wiêkszo¶ci opartych na GTK+).
+
 %prep
 %setup -q -n %{module}-%{version}
 
