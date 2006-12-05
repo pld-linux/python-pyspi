@@ -3,14 +3,14 @@ Summary:	Python bindings for AT-SPI
 Summary(pl):	Dowi±zania Pythona do AT-SPI
 Name:		python-%{module}
 Version:	0.5.4
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://people.redhat.com/zcerza/dogtail/releases/%{module}-%{version}.tar.gz
 # Source0-md5:	a9db16d5830e621fc966f93d303fb83e
 BuildRequires:	at-spi-devel
 BuildRequires:	python >= 2.2.1
-BuildRequires:	python-Pyrex
+BuildRequires:	python-Pyrex >= 0.9.4.2
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
