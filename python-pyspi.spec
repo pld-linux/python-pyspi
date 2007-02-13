@@ -1,6 +1,6 @@
 %define		module	pyspi
 Summary:	Python bindings for AT-SPI
-Summary(pl.UTF-8):   Dowiązania Pythona do AT-SPI
+Summary(pl.UTF-8):	Dowiązania Pythona do AT-SPI
 Name:		python-%{module}
 Version:	0.5.4
 Release:	3
