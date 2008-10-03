@@ -3,7 +3,7 @@ Summary:	Python bindings for AT-SPI
 Summary(pl.UTF-8):	Dowiązania Pythona do AT-SPI
 Name:		python-%{module}
 Version:	0.5.4
-Release:	3
+Release:	4
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://people.redhat.com/zcerza/dogtail/releases/%{module}-%{version}.tar.gz
